@@ -5,6 +5,7 @@ Lifetime measurements of ortho-positronium
 ![example of result](https://user-images.githubusercontent.com/23211788/32871490-ab600b16-cac4-11e7-967a-a3b242927f38.png)
 
 * データファイルは重すぎてアップはできない。（だいたい1000万データ）
+* 生データからTQ補正、pici-off反応の補正を行っている。詳しくはGoogle検索で。
 * データ解析には高エネルギー物理では有名なCERNのROOTという高機能ライブラリを使っている。
 * 念のためROOTインストール方法  
 1. ソースからmakeしてもいいが、CERNのサイトにバイナリがおいてあるはずなので、OSに合わせ、例えばホームディレクトリへインストール。
